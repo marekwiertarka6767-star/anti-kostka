@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "anti_kostka",
+  "version": "${version}",
+  "name": "Anti-Kostka",
+  "description": "Saves a custom hotbar layout and automatically restores items to their saved slots, matching by item identity and ignoring stack counts.",
+  "authors": ["Anti-Kostka"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.antikostka.AntiKostkaClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
